@@ -2,7 +2,7 @@
 
 void evenDigits(long long num,int & ans)
 {    
-    if ((num % 10) % 2 == 0)
+    if (num % 2 == 0)
     {
         ++ans;        
     }
